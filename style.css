@@ -10,41 +10,48 @@
 
 /* shared style */
 .primary-color {
-    color: #FD6E0A;
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 700px;
+  cursor: pointer;
+  color: white;
+  background-color: #fd6e0a;
 }
 
 /* header style */
-
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 51px 130px;
 }
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
 .nav-title {
-    font-stretch: 45px;
-    font-weight: 800;
+  font-stretch: 45px;
+  font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+nav ul li {
+  font-weight: 400;
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
 
 /* main style */
 /* footer style */
