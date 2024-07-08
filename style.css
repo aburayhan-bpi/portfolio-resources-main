@@ -15,7 +15,7 @@
 
 /* shared style start*/
 .primary-bg {
-  background-color: rgb(255, 248, 243);
+  background-color: #fff8f3;
 }
 .primary-color {
   color: #fd6e0a;
@@ -124,8 +124,14 @@ main {
 }
 .about-items {
   display: flex;
+  /* align-items: center; */
   justify-content: space-around;
 }
+
+
+
+
+
 
 
 
